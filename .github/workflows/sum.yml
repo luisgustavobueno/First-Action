@@ -1,11 +1,11 @@
-name: Python Action
+name: Python application
 
 on: [push]
 
 jobs:
-  run-python-actions:
+  run-sheel:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@V3
-      - name: Sum
-        run: python Hello.py
+      - name: echo string
+        run: |
+          git status 
