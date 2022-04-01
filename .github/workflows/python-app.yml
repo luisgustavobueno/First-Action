@@ -18,3 +18,7 @@ jobs:
       - name: Python
         run: |
           python Hello.py
+      - name: Testing Echo 
+        run: |
+          pwd
+          echo $GITHUB_SHA
