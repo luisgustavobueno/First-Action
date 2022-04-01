@@ -9,5 +9,5 @@ jobs:
   run-sheel:
     runs-on: ubuntu-latest
     steps:
-      - name: echo string
-        run: echo "Hello World"
+      - name: testing
+        uses: luisgustavobueno/First-Action@master
