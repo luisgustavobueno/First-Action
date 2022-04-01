@@ -1,0 +1,10 @@
+name: Python Action
+
+on: push
+
+jobs:
+  run-python-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: sum
+        uses: luisgustavobueno/First-Action@master
