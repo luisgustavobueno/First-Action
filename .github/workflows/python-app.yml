@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup
-        uses: actions/setup-python@V3
+        uses: actions/setup-python@v3
         with:
           python-version: 3.8.10
       - name: Python
