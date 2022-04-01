@@ -16,4 +16,4 @@ jobs:
         with:
           python-version: 3.8.10
         run: |
-          python3 Hello.py
+          python Hello.py
