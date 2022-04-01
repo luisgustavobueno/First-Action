@@ -6,6 +6,6 @@ jobs:
   run-python-actions:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@master
+      - uses: action/checkout@V3
       - name: Sum
         run: python Hello.py
