@@ -11,5 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup
+        uses: actions/setup-python@V3
+        with:
+          python-version: 3.8.10
         run: |
-          python Hello.py
+          python3 Hello.py
