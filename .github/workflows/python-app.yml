@@ -4,8 +4,11 @@
 name: Python application
 
 on: 
-  schedule:
-    - cron: "50 * * * * "
+  push:
+    branches:
+      - master
+      - 'feature/*'
+
 
 jobs:
   run-sheel:
