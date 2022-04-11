@@ -12,6 +12,6 @@ jobs:
       with:
         node-version: '6'
     - name: Log node version
-      run: nove -v
+      run: node -v
         
         
